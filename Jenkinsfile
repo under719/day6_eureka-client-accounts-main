@@ -14,7 +14,7 @@ pipeline {
                 sh 'java -version'
                 sh 'mvn -version'
                 // Git 저장소에서 소스 코드 체크아웃 (branch 지정 master 또는 main)
-                git branch: 'main', url: 'https://github.com/under719/eureka-client-accounts.git'
+                git branch: 'main', url: 'https://github.com/under719/day6_eureka-client-accounts-main.git'
             }
         }
         stage('Build with Maven') {
